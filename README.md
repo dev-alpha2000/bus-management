@@ -61,19 +61,15 @@ Real-Time Availability: Available seats update in real-time as users book ticket
 
 
 ## Dependencies
-React: Frontend framework for building the UI.
-Axios or Fetch API: For making API requests to a backend or database.
-React Router: For routing between different pages (dashboard, booking, etc.).
-CSS or Styled Components: For styling the app components.
-React Context or Redux: For managing global state (e.g., bus data, bookings).
-Backend API (Optional)
-If using a backend for bus data and bookings, set up the backend and API to handle requests for:
 
-Bus Management: Create, read, update, and delete buses.
-Route Management: Add or update routes for each bus.
-Ticket Booking: Handle seat reservations and bookings.
-User Authentication: Optional for user login and dashboard access.
-Security Considerations
-Form Validation: Ensure proper validation for booking forms to prevent incorrect data input.
-Authentication: Implement user roles (admin and regular users) with protected routes and access control.
-Secure API C
+React: Frontend framework for building the UI.
+
+Axios or Fetch API: For making API requests to a backend or database.
+
+React Router: For routing between different pages (dashboard, booking, etc.).
+
+CSS or Styled Components: For styling the app components.
+
+React Context or Redux: For managing global state (e.g., bus data, bookings).
+
+
